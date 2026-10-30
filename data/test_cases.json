@@ -1,0 +1,28 @@
+{
+  "queries": [
+    {"query_id": "Q01", "query": "A goal was scored near the end of a soccer match.", "relevant_ids": ["S01", "S02"], "explanation": "The query describes a late goal in a soccer game."},
+    {"query_id": "Q02", "query": "How can I make a flavorful tomato sauce for pasta?", "relevant_ids": ["S06", "S07"], "explanation": "Both examples describe tomato-based pasta sauce."},
+    {"query_id": "Q03", "query": "The phone program received a fix for a security weakness.", "relevant_ids": ["S11", "S12"], "explanation": "Both sentences describe patching an app security issue."},
+    {"query_id": "Q04", "query": "What kind of conditions are expected in tonight's storm?", "relevant_ids": ["S16", "S17"], "explanation": "Both sentences describe evening rain and wind."},
+    {"query_id": "Q05", "query": "Learners prepared together for a history test.", "relevant_ids": ["S21", "S22"], "explanation": "Both sentences describe group study before a history assessment."},
+    {"query_id": "Q06", "query": "A machine with cameras moves around a factory on its own.", "relevant_ids": ["S15"], "explanation": "The query describes a camera-guided factory robot."},
+    {"query_id": "Q07", "query": "The bakery offers freshly baked loaves and pastries.", "relevant_ids": ["S09"], "explanation": "The query describes bread and pastries sold at a bakery."},
+    {"query_id": "Q08", "query": "The river overflowed onto the land beside it after days of rain.", "relevant_ids": ["S18"], "explanation": "The query refers to a river bank flooding, not a financial bank."},
+    {"query_id": "Q09", "query": "What did the financial institution do with the customer's borrowing request?", "relevant_ids": ["S14"], "explanation": "The query describes a bank approving a loan."},
+    {"query_id": "Q10", "query": "Students used colored circles to learn part of a whole.", "relevant_ids": ["S23"], "explanation": "The query describes a classroom demonstration of fractions."},
+    {"query_id": "Q11", "query": "A thick mist made it difficult for drivers to see.", "relevant_ids": ["S20"], "explanation": "The query describes fog reducing visibility."},
+    {"query_id": "Q12", "query": "Runners celebrated by raising their championship award.", "relevant_ids": ["S05"], "explanation": "The query describes a team celebrating a trophy."}
+  ],
+  "unrelated_pairs": [
+    {"sentence_id_a": "S01", "sentence_id_b": "S09", "explanation": "A soccer goal and bakery goods have unrelated subjects."},
+    {"sentence_id_a": "S07", "sentence_id_b": "S20", "explanation": "Pasta sauce and road fog describe different topics."},
+    {"sentence_id_a": "S12", "sentence_id_b": "S22", "explanation": "An app security patch and history study are unrelated."},
+    {"sentence_id_a": "S14", "sentence_id_b": "S18", "explanation": "The repeated word 'bank' means a financial institution in one sentence and a river edge in the other."},
+    {"sentence_id_a": "S15", "sentence_id_b": "S21", "explanation": "Factory robots and exam preparation have unrelated meanings."},
+    {"sentence_id_a": "S03", "sentence_id_b": "S19", "explanation": "Swim training and mild afternoon weather are unrelated."},
+    {"sentence_id_a": "S08", "sentence_id_b": "S24", "explanation": "A breakfast smoothie and library study hours are unrelated."},
+    {"sentence_id_a": "S10", "sentence_id_b": "S25", "explanation": "Seasoning vegetables and tracking seed growth are different activities."},
+    {"sentence_id_a": "S13", "sentence_id_b": "S17", "explanation": "Computer storage and an evening downpour are unrelated."},
+    {"sentence_id_a": "S04", "sentence_id_b": "S23", "explanation": "Changing a sports defense and teaching fractions have different meanings."}
+  ]
+}

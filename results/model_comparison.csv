@@ -1,0 +1,3 @@
+model,average_related_cosine,average_unrelated_cosine,top_1_accuracy,top_3_accuracy
+all-MiniLM-L6-v2,0.6543283215135346,0.06493723460836862,0.9166666666666666,1.0
+paraphrase-multilingual-MiniLM-L12-v2,0.7450257222056632,0.04127446775565528,1.0,1.0

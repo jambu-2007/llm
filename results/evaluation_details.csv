@@ -1,0 +1,25 @@
+model,query_id,query,relevant_ids,top_1_id,top_1_score,top_3_ids,top_1_correct,top_3_correct
+all-MiniLM-L6-v2,Q01,A goal was scored near the end of a soccer match.,S01;S02,S01,0.7337438433959381,S01;S02;S04,True,True
+all-MiniLM-L6-v2,Q02,How can I make a flavorful tomato sauce for pasta?,S06;S07,S06,0.7322373087775504,S06;S07;S08,True,True
+all-MiniLM-L6-v2,Q03,The phone program received a fix for a security weakness.,S11;S12,S12,0.7447697582013751,S12;S11;S04,True,True
+all-MiniLM-L6-v2,Q04,What kind of conditions are expected in tonight's storm?,S16;S17,S16,0.6953456981766005,S16;S17;S19,True,True
+all-MiniLM-L6-v2,Q05,Learners prepared together for a history test.,S21;S22,S22,0.7992896045124074,S22;S21;S24,True,True
+all-MiniLM-L6-v2,Q06,A machine with cameras moves around a factory on its own.,S15,S15,0.7133983539571104,S15;S13;S25,True,True
+all-MiniLM-L6-v2,Q07,The bakery offers freshly baked loaves and pastries.,S09,S09,0.8114908904197353,S09;S08;S19,True,True
+all-MiniLM-L6-v2,Q08,The river overflowed onto the land beside it after days of rain.,S18,S18,0.6595163730356872,S18;S17;S16,True,True
+all-MiniLM-L6-v2,Q09,What did the financial institution do with the customer's borrowing request?,S14,S14,0.4917502514565293,S14;S18;S21,True,True
+all-MiniLM-L6-v2,Q10,Students used colored circles to learn part of a whole.,S23,S23,0.6727533578737126,S23;S22;S21,True,True
+all-MiniLM-L6-v2,Q11,A thick mist made it difficult for drivers to see.,S20,S20,0.511684277907864,S20;S17;S16,True,True
+all-MiniLM-L6-v2,Q12,Runners celebrated by raising their championship award.,S05,S03,0.3511368509340238,S03;S05;S25,False,True
+paraphrase-multilingual-MiniLM-L12-v2,Q01,A goal was scored near the end of a soccer match.,S01;S02,S01,0.8470397857255273,S01;S02;S05,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q02,How can I make a flavorful tomato sauce for pasta?,S06;S07,S06,0.8331607840804112,S06;S07;S10,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q03,The phone program received a fix for a security weakness.,S11;S12,S12,0.7892257362712652,S12;S11;S15,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q04,What kind of conditions are expected in tonight's storm?,S16;S17,S16,0.7374139876232039,S16;S17;S19,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q05,Learners prepared together for a history test.,S21;S22,S22,0.8896429653433953,S22;S21;S23,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q06,A machine with cameras moves around a factory on its own.,S15,S15,0.7156968806172933,S15;S13;S25,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q07,The bakery offers freshly baked loaves and pastries.,S09,S09,0.8759003345133213,S09;S08;S19,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q08,The river overflowed onto the land beside it after days of rain.,S18,S18,0.816254571886514,S18;S17;S16,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q09,What did the financial institution do with the customer's borrowing request?,S14,S14,0.4461562585011644,S14;S21;S18,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q10,Students used colored circles to learn part of a whole.,S23,S23,0.764960465594964,S23;S22;S21,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q11,A thick mist made it difficult for drivers to see.,S20,S20,0.7705626463563944,S20;S17;S16,True,True
+paraphrase-multilingual-MiniLM-L12-v2,Q12,Runners celebrated by raising their championship award.,S05,S05,0.6727754975234856,S05;S01;S03,True,True
